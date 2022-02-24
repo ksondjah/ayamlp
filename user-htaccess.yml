@@ -1,4 +1,6 @@
-  tasks:
+ - name: HTACCESS
+   hosts: all
+   tasks:
           - name: HTpasswd  Ajout Utilisateur
             htpasswd:
                 path: "{{ htpasswd_path }}"
@@ -20,7 +22,7 @@
             tags:
               - rmvUserHtaccess
 
-  handlers:
+   handlers:
           - name: Restart and enable httpd
             service:
                name: httpd
