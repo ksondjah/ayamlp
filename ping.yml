@@ -1,6 +1,6 @@
 ---
 
-- hosts: centos
+- hosts: HOSTINV
 
   tasks:
   - name: Ping hosts
