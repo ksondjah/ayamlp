@@ -1,0 +1,10 @@
+---
+# Variables
+htpasswd_path: /etc/httpd/conf/htpasswd
+users:
+      - eric
+      - luc
+      - daniel
+      - kouakou
+      - karunga
+      - sidibe
