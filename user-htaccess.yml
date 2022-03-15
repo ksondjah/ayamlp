@@ -5,7 +5,7 @@
             htpasswd:
                 path: "{{ htpasswd_path }}"
                 name: "{{ htaccess_username }}"
-                password: "{{ htaccess_username }}"
+                password: "{{ htaccess_passwd }}"
                 owner: root
                 group: root
                 mode: 0644
