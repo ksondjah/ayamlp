@@ -1,5 +1,6 @@
  - name: HTACCESS
    hosts: all
+   become: yes
    tasks:
           - name: HTpasswd  Ajout Utilisateur
             htpasswd:
